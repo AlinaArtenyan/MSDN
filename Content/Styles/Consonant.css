@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body, main {
+	width: 100%;
+	height: 100%;
+}
+body{
+	display: table;
+}
+main {
+	margin: auto;
+	display: table-cell;
+	vertical-align: middle;
+}
+.container{
+	    margin-bottom: 109px;
+}
+.table {
+	position: relative;
+
+	display: table;
+
+	margin-bottom: 156px;
+	margin: auto;
+}
+h2 {
+	color: #1b1e1e;
+	text-align: center; 
+
+	padding: 10px 0;
+}
+#canvasAudio1,
+#canvasAudio2,
+#canvasAudio3,
+#canvasAudio4 {
+	position: absolute;
+}
+.table:before {
+	width: 182px;
+	height: 515px;
+	
+	position: absolute;
+	top: 51px;
+	right: 1195px;
+
+	content: "";
+
+    background-image: url(../Imgs/guitar.png);
+    background-size: cover;
+    display: inline-block;
+}
+canvas > .first {
+	height: 467px;
+
+	right: 182px;
+	top: 158px;
+}
+a {
+	position: absolute;
+	
+	color: #000;
+	text-decoration: none;
+
+	outline: none;
+}
+#guitar{
+	width: 230px;
+	
+	position: absolute;
+	
+	margin-left: 1269px;
+	margin-top: 65px;
+}
+img {
+	width: 35px;
+
+	position: absolute;
+}
+.$canvasDiv {
+	position: absolute;
+}
+.first {
+height: 30%;
+    left: 20%;
+    top: 36%;
+    z-index: 1;
+    position: absolute;
+}
+
+}
+.second {
+height: 70%;
+	right: 50%;
+	top: 50%;
+		position: absolute;
+
+}
+.third {
+height: 50%;
+	right: 50%;
+	top: 50%;
+		position: absolute;
+
+}
+.fourth {
+height: 50%;
+	right: 50%;
+	top: 50%;
+		position: absolute;
+
+}

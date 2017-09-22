@@ -1,0 +1,142 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html, body, main {
+	height: 100%;
+	width: 100%;
+}
+/*body {
+    background-color: #f0e3b2;
+}*/
+body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #5ab271;
+
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+header, main, footer {
+    width: 875px;
+
+    margin: 6px auto;
+
+    box-shadow: 1px 0 16px #578503;
+}
+header {
+	height: 165px;
+
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+
+    background-color: #5ba271;
+    
+    padding-top: 35px;    
+    border-radius: 18px 18px 0 0;
+}
+header span {
+    font-size: 28px;
+    
+    line-height: 30px;
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+.header-table a {
+    color: #fff;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+main {
+    width: 875px;
+    
+    font-size: 17px;
+    
+    background-color: #f3efdb;
+    vertical-align: middle;
+}
+.cont {
+    width: 875px;
+    
+    padding: 10px;
+    
+    margin: auto;
+}
+.main-table {
+    height: 100px;
+        
+    color: #500700;
+    
+    background-color: #f3efdb;
+    display: table;
+   
+    margin: 10px auto;
+}
+img {
+	width: 70px;
+}
+summary{
+    height: 30px;
+    
+    cursor: pointer;
+    font-size: 19px;
+    outline: none;
+
+    padding-top: 5px;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+    background-color: #f3efdb;
+}
+details {
+    width: 823px;
+    
+    margin: 45px 0 0 23px;
+}
+details > p:first-letter {
+    color: #27a64c;
+    font-size: 150%;  
+}
+.main-table p {
+    text-align: justify;
+    padding: 10px;
+}
+.cont p {
+    text-indent: 15px;
+    
+    padding-top: 10px;
+}
+q {
+	quotes: "(" ")";
+}
+.double_quotes {
+	quotes: '"' '"';
+}
+footer {
+	background-color: #F3EFDB;
+}
+.footer-table {
+    width: 875px;
+    
+    text-align: center;
+
+    display: table;
+    
+    padding: 20px 0;
+    margin: auto;
+}
+.footer-cell {
+    display: table-row;
+    vertical-align: middle;
+
+    margin: auto;
+}
+.footer-cell a {
+	cursor: pointer;
+    color: #27a64c;
+}
